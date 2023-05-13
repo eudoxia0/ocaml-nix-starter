@@ -1,4 +1,4 @@
-# OCaml Nix Project
+# OCaml Nix Starter Project
 
 ![Build status badge](https://github.com/eudoxia0/ocaml-nix-starter/actions/workflows/test.yaml/badge.svg)
 
