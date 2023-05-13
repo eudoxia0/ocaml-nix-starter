@@ -27,3 +27,6 @@ jobs:
 
       - name: make clean
         run: nix-shell --command 'make clean'
+
+      - name: Assert executable does not exist
+        run: test ! -f hello
