@@ -1,6 +1,6 @@
 # OCaml Nix Project
 
-![Build status badge](https://github.com/eudoxia0/ocaml-nix-starter/actions/workflows/test.yml/badge.svg)
+![Build status badge](https://github.com/eudoxia0/ocaml-nix-starter/actions/workflows/test.yaml/badge.svg)
 
 A minimal OCaml project using [Nix][nix], with dependencies and unit tests.
 
