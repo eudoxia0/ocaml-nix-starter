@@ -7,7 +7,7 @@ default: $(BIN)
 
 $(BIN): $(SRC)
 	dune build
-	cp _build/default/bin/main.exe hello
+	cp _build/default/bin/main.exe $(BIN)
 
 test:
 	dune test
