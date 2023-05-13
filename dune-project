@@ -18,7 +18,7 @@
  (synopsis "An OCaml project template")
  (description "An OCaml project template")
  (depends
-  (ocaml (>= 5.0.0))
-  (dune (>= 3.7.1))
+  (ocaml (>= 4.14.1))
+  (dune (>= 3.6.1))
   (alcotest :with-test)
   (odoc :with-doc)))
