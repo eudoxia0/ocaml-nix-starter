@@ -1,10 +1,20 @@
 # OCaml Nix Project
 
-A minimal OCaml project using Nix.
+A minimal OCaml project using [Nix][nix], with dependencies and unit tests.
+
+[nix]: https://nixos.org/
 
 ## Usage
 
-TODO
+```bash
+$ nix-shell
+
+> make
+> ./hello
+Hello, world!
+> make test
+> make clean
+```
 
 ## License
 
