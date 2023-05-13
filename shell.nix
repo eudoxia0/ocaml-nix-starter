@@ -16,6 +16,7 @@ pkgs.mkShell {
     ocamlPackages.ocaml
     ocamlPackages.dune_3
     ocamlPackages.findlib
+    ocamlPackages.odoc
 
     # OCaml libraries
     ocamlPackages.yojson
