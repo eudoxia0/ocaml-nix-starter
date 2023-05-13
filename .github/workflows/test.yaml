@@ -12,3 +12,6 @@ jobs:
       - uses: cachix/install-nix-action@v20
         with:
           nix_path: nixpkgs=channel:nixos-22.11
+
+      - name: make
+        run: nix-shell --command 'make'
