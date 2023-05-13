@@ -26,6 +26,7 @@ To make your own project from this template:
 1. Update `lib/dune`, `bin/dune`, and `test/dune`.
 1. Add any OCaml dependencies to `shell.nix`, `dune-project`, and the relevant
    `dune` files.
+1. Update `.gitignore`.
 
 ## License
 
