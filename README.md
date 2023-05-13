@@ -18,6 +18,15 @@ Hello, world!
 > make clean
 ```
 
+## Using This Template
+
+To make your own project from this template:
+
+1. Update `dune-project` to your metadata.
+1. Update `lib/dune`, `bin/dune`, and `test/dune`.
+1. Add any OCaml dependencies to `shell.nix`, `dune-project`, and the relevant
+   `dune` files.
+
 ## License
 
 Copyright 2023 [Fernando Borretti](https://borretti.me/)
