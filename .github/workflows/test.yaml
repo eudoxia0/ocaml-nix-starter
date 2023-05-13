@@ -23,7 +23,7 @@ jobs:
         run: ./hello > output.txt
 
       - name: Test output
-        run: echo "Hello, world" | diff output.txt -
+        run: echo "Hello, world!" | diff output.txt -
 
       - name: make clean
         run: nix-shell --command 'make clean'
