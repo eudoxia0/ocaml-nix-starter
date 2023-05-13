@@ -15,3 +15,6 @@ jobs:
 
       - name: make
         run: nix-shell --command 'make'
+
+      - name: make test
+        run: nix-shell --command 'make test'
