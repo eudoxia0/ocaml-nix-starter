@@ -2,8 +2,6 @@
 
 (name hello)
 
-(generate_opam_files true)
-
 (source
  (github eudoxia0/ocaml-nix-starter))
 
